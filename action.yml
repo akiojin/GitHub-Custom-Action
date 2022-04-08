@@ -1,0 +1,13 @@
+name: 'GitHub-Custom-Action'
+description: ''
+inputs:
+  github-context:
+    default: ${{ toJSON(github) }}
+  env-context:
+    default: ${{ toJSON(env) }}
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  icon: 'box'
+  color: 'orange'
