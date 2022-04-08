@@ -8,7 +8,7 @@ on:
 
 jobs:
   Build:
-    runs-on: [self-hosted, macos]
+    runs-on: ubuntu-latest
     timeout-minutes: 60
 
     steps:
