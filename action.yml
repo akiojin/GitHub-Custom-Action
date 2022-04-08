@@ -2,9 +2,9 @@ name: 'GitHub-Custom-Action'
 description: ''
 inputs:
   github-context:
-    default: ${{ toJSON(github) }}
+    required: true
   env-context:
-    default: ${{ toJSON(env) }}
+    required: true
 runs:
   using: 'node16'
   main: 'dist/index.js'
