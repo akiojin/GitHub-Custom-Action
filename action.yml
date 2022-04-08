@@ -3,8 +3,6 @@ description: ''
 inputs:
   github-context:
     required: true
-  env-context:
-    required: true
 runs:
   using: 'node16'
   main: 'dist/index.js'

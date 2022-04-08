@@ -17,4 +17,3 @@ jobs:
       - uses: ./
         with:
           github-context: ${{ toJSON(github) }}
-          env-context: ${{ toJSON(env) }}
